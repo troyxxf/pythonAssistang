@@ -1,0 +1,6 @@
+sMale=eval(input())
+sFemal=eval(input())
+x=sMale/(sMale+sFemal)
+y=sFemal/(sMale+sFemal)
+sText="The male students ratio is %.2f ,the female student ratio is %.2f ."%(x,y)
+print(sText)

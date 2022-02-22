@@ -1,0 +1,8 @@
+lst=input()
+print(type(lst),lst,"长度为",len(lst))
+lst1=eval(input())
+print(type(lst1),lst1,"长度为",len(lst1))
+lst2=input().split()
+print(type(lst2),lst2,"长度为",len(lst2))
+lst3=input().split(',')
+print(type(lst3),lst3,"长度为",len(lst3))
